@@ -224,7 +224,7 @@ function General() {
                 title={t('settings:general.appVersion')}
                 actions={
                   <span className="text-foreground font-medium">
-                    v{VERSION}
+                    v{VERSION}{IS_DEV ? '-dev' : ''}
                   </span>
                 }
               />
